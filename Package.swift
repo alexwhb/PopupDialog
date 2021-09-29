@@ -34,9 +34,9 @@ let package = Package(
             name: "PopupDialog",
             dependencies: ["DynamicBlurView"],
             path: "PopupDialog/Classes"),
-        .testTarget(
-            name: "PopupDialogTests",
-            dependencies: ["PopupDialog", "Nimble", "FBSnapshotTestCase"],
-            path: "Tests")
+//        .testTarget(
+//            name: "PopupDialogTests",
+//            dependencies: ["PopupDialog", "Nimble", "FBSnapshotTestCase"],
+//            path: "Tests")
     ]
 )
